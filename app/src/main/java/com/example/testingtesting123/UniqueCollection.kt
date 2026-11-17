@@ -23,10 +23,7 @@ class UniqueCollection {
     // TODO 3: Complete this function such that the pre-written Unit Test (TDD) passes
 
     /** Clear all items from hte collection */
-    fun clear () {
-
-    }
-
+    fun clear () = collection.clear()
     /** Return the side of the collection */
     fun size() = collection.size
 
